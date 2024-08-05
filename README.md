@@ -3,7 +3,7 @@ A library database for tracking multiple forms of physical and potentially digit
 
 Completed: Login page. Basic HTML in place, and some basic JS writen to enable a single pre-written user to login
 
-Currently working on: Add a second user and create an SQLite DB that both can seewith the following requirements:
+Currently working on: Add a second user and create an SQLite DB that both can see with the following requirements:
 - Create a table that all users can see, but one user owns and can write to.
 - Create a table that only one user can access
 - Create a table that a user can grant read permissions to other users for.
