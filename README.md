@@ -1,16 +1,16 @@
 # LibraryDB
 A library database for tracking multiple forms of physical and potentially digital media for Multiple users, enabling loans bwtween users 
 
-Currently working on: Login page. Basic HTML in place, need to connect it to a table to store credentials
+Completed: Login page. Basic HTML in place, and some basic JS writen to enable a single pre-written user to login
 
-Future tasks:
+Currently working on: Add a second user and create an SQLite DB that both can seewith the following requirements:
 - Create a table that all users can see, but one user owns and can write to.
 - Create a table that only one user can access
 - Create a table that a user can grant read permissions to other users for.
 
 At this point Minimum Viable Product is achieved.
 
-Further Tasks:
+Future tasks:
 - Create a user registration workflow
 - make a system that generates new tables for each user both after registration, and on request.
 - allow addition of new data utilizing scraped sources like the ISBN database
