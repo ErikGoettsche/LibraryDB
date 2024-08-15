@@ -10,10 +10,13 @@ loginButton.addEventListener("click", (e) => {
     const username = loginForm.username.value;
     const password = loginForm.password.value;
 
-    if (username === "user" && password === "dev") {
+    if (username === "admin" && password === "dev") {
         alert("You have successfully logged in.");
         location.reload();
-    } else {
+    } elseif (username === "user" && password === "user"){
+        alert("You have successfully logged in.");
+        location.reload();
+    }  else {
         //loginErrorMsg.style.opacity = 1;
         alert("Perhaps you should double check your username and password");
     }
