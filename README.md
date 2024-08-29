@@ -8,6 +8,8 @@ Currently working on: Add a second user and create an SQLite DB that both can se
 - Create a table that only one user can access
 - Create a table that a user can grant read permissions to other users for.
 
+I just realized the Architecture layed out above is inefficient, and needlessly complex. now currently working on restructing the data so that it is in as few tables as possible. should have some kind of implementation by the end of the weekend.
+
 At this point Minimum Viable Product is achieved.
 
 Future tasks:
